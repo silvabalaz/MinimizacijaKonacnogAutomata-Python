@@ -1,0 +1,2 @@
+# MinimizacijaKonacnogAutomata-Python
+Hopcroft algoritam
