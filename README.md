@@ -7,7 +7,7 @@ Za bilo koji DKA moguće je izgraditi beskonačno mnogo drugih DKA koji prihvać
 
 _Za regularni jezik L moguće je izgraditi DKA M koji ima manji ili jednak broj stanja od bilo kojeg drugog DKA M' koji prihvaća isti taj jezik L._
 
-P := {F, Q \ F};
+_P := {F, Q \ F};
 W := {F};
 while (W is not empty) do
      choose and remove a set A from W
@@ -24,5 +24,5 @@ while (W is not empty) do
                          add Y \ X to W
           end;
      end;
-end;
+end;_
 
