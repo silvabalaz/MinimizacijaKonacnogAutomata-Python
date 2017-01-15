@@ -20,7 +20,7 @@ W := {F};<br />
                       &nbsp;&nbsp;   replace Y in W by the same two sets <br />
                **else**
                   &nbsp;&nbsp;  if |X ∩ Y| <= |Y \ X| <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;  add X ∩ Y to W <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp; add X ∩ Y to W <br />
                     **else**
                     &nbsp;&nbsp;&nbsp;&nbsp; add Y \ X to W <br />
           **end**;<br />
