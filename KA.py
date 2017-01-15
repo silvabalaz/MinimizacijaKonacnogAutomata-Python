@@ -1,3 +1,5 @@
+# Kod preuzet sa: https://github.com/vedgar/ip/blob/master/KA.py
+
 import random, itertools, operator, types, pprint
 
 
