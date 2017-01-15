@@ -46,6 +46,13 @@ Konačan automat koji se može zadati preko definicije (_def definicija_) ili ka
 stanja, abeceda, prijelaz, početno, završna </br>
 &nbsp;&nbsp;&nbsp;&nbsp; abeceda koja je konačan neprazan skup, početno stanje koje je element skupa stanja, završna stanja koja su &nbsp;&nbsp;&nbsp;&nbsp;podskup skupa stanja</br>
 
-_**ProfinjenjeParticije.py**_
+_**ProfinjenjeParticije.py**_ </br>
+Algoritam sadrži familiju disjunktinih skupova S_i. U startu ta familija sadrži jedan skup svih elemenata strukture podataka. U svakom koraku algoritma, Skup X je prezentiran algoritmu i pojedini skup S_i u familiji koji sadrži članove X-a je podijeljen u dva skupa, S\_i  ∩ X i S_i\X. </br>
+
+Za implementaciju možemo koristiti rječnik {ključ:vrijednost} = {id(S}:S} gdje je ključ indeks skupa a vrijednost je skup koji pripada danom indeksu. Particija je reprezentirana rječnikom {x:S for x in S} gdje je ključ element skupa, a vrijednost skup kojem element pripada,i tako za sve elemente stvorenog skupa.
+
+Za izvođenje profinjavanja particije algoritam prolazi kroz elemente danog kupa X. za svaki takav element x skupa X, traži se skup S_i koji sadrži element x i provjerava je li stvoren skup S_i ∩ X. Ako nije, stvara se takav skup i dodaje S_i u listu L svih skupova koji su podijeljeni operacijom. Nakon toga, neovisno o tome je li S_i ∩ X formiran, algoritam uklanja element x iz S_i i dodaje ga u S_i ∩ X.
+
+
 
 
