@@ -23,7 +23,7 @@ W := {F};<br />
                          add X ∩ Y to W <br />
                     **else**
                          add Y \ X to W <br />
-          **end**;
-     **end**;
-**end**;_
+          **end**;<br />
+     **end**;<br />
+**end**;_<br />
 
