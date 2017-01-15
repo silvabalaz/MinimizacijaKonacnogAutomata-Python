@@ -5,9 +5,9 @@ Kolegij: Interpretacija programa
 
 Za bilo koji DKA moguće je izgraditi beskonačno mnogo drugih DKA koji prihvaćaju isti jezik. Učinkovito programsko ostvarenje zahtjeva gradnju DKA sa što manjim brojem stanja:
 
-_Za regularni jezik L moguće je izgraditi DKA M koji ima manji ili jednak broj stanja od bilo kojeg drugog DKA M' koji prihvaća isti taj jezik L._ </br>
+_Za regularni jezik L moguće je izgraditi DKA M koji ima manji ili jednak broj stanja od bilo kojeg drugog DKA M' koji prihvaća isti taj jezik L._ </br></br>
+
 Σ - abeceda </br>
-<br />
 _P := {F, Q \ F};<br />
 W := {F};<br />
 **while** (W is not empty) do<br />
@@ -35,4 +35,4 @@ Konstruiraj inicijalnu particiju </br>
 Iterativno profinjuj particiju (sve dok particije ne postanu fiksne) </br>
 &nbsp;&nbsp;Podijeli particiju ako članovi u particiji imaju prijelaze u različite particije za isti ulazni string </br> </br>
 
-_Dva stanja x i y pripadaju istoj particiji **ako i samo ako** za sve simbole u Σ prelaze u istu particiju_
+_Dva stanja x i y pripadaju istoj particiji **ako i samo ako** za sve simbole u Σ prelaze u istu particiju._
