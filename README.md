@@ -1,5 +1,7 @@
 # MinimizacijaKonacnogAutomata-Python
 Hopcroft algoritam
+https://en.wikipedia.org/wiki/DFA_minimization
+https://en.wikipedia.org/wiki/Partition_refinement
 
 Kolegij: Interpretacija programa
 
