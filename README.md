@@ -10,7 +10,7 @@ _Za regularni jezik L moguće je izgraditi DKA M koji ima manji ili jednak broj 
 <br />
 _P := {F, Q \ F};<br />
 W := {F};<br />
-while (W is not empty) do<br />
+*while* (W is not empty) do<br />
      choose and remove a set A from W 
      for each c in Σ do <br />
           let X be the set of states for which a transition on c leads to a state in A <br />
