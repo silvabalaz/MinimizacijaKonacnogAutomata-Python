@@ -1,7 +1,7 @@
 # MinimizacijaKonacnogAutomata-Python
-Hopcroft algoritam
-https://en.wikipedia.org/wiki/DFA_minimization
-https://en.wikipedia.org/wiki/Partition_refinement
+Hopcroft algoritam </br>
+https://en.wikipedia.org/wiki/DFA_minimization </br>
+https://en.wikipedia.org/wiki/Partition_refinement </br>
 
 Kolegij: Interpretacija programa
 
@@ -38,3 +38,14 @@ Iterativno profinjuj particiju (sve dok particije ne postanu fiksne) </br>
 &nbsp;&nbsp;Podijeli particiju ako članovi u particiji imaju prijelaze u različite particije za isti ulazni string </br> </br>
 
 _Dva stanja x i y pripadaju istoj particiji **ako i samo ako** za sve simbole u Σ prelaze u istu particiju._
+
+**Implementacija** </br>
+_**KA.py**_</br>
+Konačan automat koji se može zadati preko definicije (_def definicija_) ili kao string koji je potrebno parsirati (_def iz_tablice_) </br>
+&nbsp;&nbsp;definicija:</br>
+stanja, abeceda, prijelaz, početno, završna </br>
+&nbsp;&nbsp;&nbsp;&nbsp; abeceda koja je konačan neprazan skup, početno stanje koje je element skupa stanja, završna stanja koja su &nbsp;&nbsp;&nbsp;&nbsp;podskup skupa stanja</br>
+
+_**ProfinjenjeParticije.py**_
+
+
