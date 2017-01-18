@@ -18,6 +18,9 @@ class ProfinjavanjeParticije:
 
         return len(klasa._indeksiSkupova)
 
+    def __iter__(klasa):
+          return iter(klasa._indeksiSkupova.values())
+
     def dodaj(klasa,element,skup):
 
         if id(skup) not in klasa._indeksiSkupova:
