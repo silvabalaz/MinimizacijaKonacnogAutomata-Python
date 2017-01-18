@@ -3,7 +3,8 @@ Hopcroft algoritam </br>
 https://en.wikipedia.org/wiki/DFA_minimization </br>
 https://en.wikipedia.org/wiki/Partition_refinement </br>
 
-Kolegij: Interpretacija programa
+Kolegij: Interpretacija programa</br>
+https://github.com/vedgar/ip/
 
 Za bilo koji DKA moguće je izgraditi beskonačno mnogo drugih DKA koji prihvaćaju isti jezik. Učinkovito programsko ostvarenje zahtjeva gradnju DKA sa što manjim brojem stanja:
 
